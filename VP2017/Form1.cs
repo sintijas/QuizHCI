@@ -639,7 +639,7 @@ namespace VP2017
                 Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2);
                 btnOtkaziSe.Font = f;
             }
-            if (btnAnswerA.Font.Size < 24)
+            if (btnAnswerA.Font.Size < 28)
             {
                 Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size + 2);
                 btnAnswerA.Font = f;
@@ -647,7 +647,6 @@ namespace VP2017
                 btnAnswerC.Font = f;
                 btnAnswerD.Font = f;
             }
-
         }
 
         private void btnZoomOut_Click(object sender, EventArgs e)
@@ -662,7 +661,7 @@ namespace VP2017
                 Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2);
                 btnOtkaziSe.Font = f;
             }
-            if (btnAnswerA.Font.Size >16)
+            if (btnAnswerA.Font.Size >18)
             {
                 Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2);
                 btnAnswerA.Font = f;

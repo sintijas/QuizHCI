@@ -45,7 +45,7 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.label1.Enabled = false;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 38F);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 36F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Multiline = true;
@@ -61,7 +61,7 @@
             this.lblPrasanje.BackColor = System.Drawing.Color.Black;
             this.lblPrasanje.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lblPrasanje.Enabled = false;
-            this.lblPrasanje.Font = new System.Drawing.Font("Arial Narrow", 38F);
+            this.lblPrasanje.Font = new System.Drawing.Font("Arial Narrow", 36F);
             this.lblPrasanje.ForeColor = System.Drawing.Color.White;
             this.lblPrasanje.Location = new System.Drawing.Point(12, 133);
             this.lblPrasanje.Multiline = true;
