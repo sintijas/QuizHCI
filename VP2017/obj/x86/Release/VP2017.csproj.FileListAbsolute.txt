@@ -44,3 +44,23 @@ D:\Documents\ivana\fakultet\fakultet\shesti semestar\vizuelno programiranje\proe
 D:\Documents\ivana\fakultet\fakultet\shesti semestar\vizuelno programiranje\proekt\proekt-final\Millionaire\VP2017\obj\x86\Release\VP2017.csproj.GenerateResource.Cache
 D:\Documents\ivana\fakultet\fakultet\shesti semestar\vizuelno programiranje\proekt\proekt-final\Millionaire\VP2017\obj\x86\Release\VP2017.exe
 D:\Documents\ivana\fakultet\fakultet\shesti semestar\vizuelno programiranje\proekt\proekt-final\Millionaire\VP2017\obj\x86\Release\VP2017.pdb
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Release\DataBase\Questions.mdf
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Release\DataBase\Questions_log.ldf
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Release\VP2017.exe.config
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Release\VP2017.exe
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Release\VP2017.pdb
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.csprojResolveAssemblyReference.cache
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.CallForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.ChartForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.Form1.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.FormFinalAnswer.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.InstructionsForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.ExitForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.Properties.Resources.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.StartForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.Status.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.WinnerForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.WrongAnswerForm.resources
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.csproj.GenerateResource.Cache
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.exe
+E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Release\VP2017.pdb

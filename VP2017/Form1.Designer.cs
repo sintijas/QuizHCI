@@ -31,23 +31,18 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tbQuestion = new System.Windows.Forms.TextBox();
-            this.pbCall = new System.Windows.Forms.PictureBox();
-            this.pbAskTheAudience = new System.Windows.Forms.PictureBox();
-            this.pb5050 = new System.Windows.Forms.PictureBox();
             this.btnAnswerA = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnAnswerC = new System.Windows.Forms.Button();
             this.btnAnswerD = new System.Windows.Forms.Button();
             this.btnAnswerB = new System.Windows.Forms.Button();
-            this.pbOtkaziSe = new System.Windows.Forms.PictureBox();
             this.btnZoomIn = new System.Windows.Forms.Button();
             this.btnZoomOut = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCall)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAskTheAudience)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5050)).BeginInit();
+            this.btn5050 = new System.Windows.Forms.Button();
+            this.btnOtkaziSe = new System.Windows.Forms.Button();
+            this.tbBrojPrasanje = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbOtkaziSe)).BeginInit();
             this.SuspendLayout();
             // 
             // tbQuestion
@@ -57,48 +52,16 @@
             this.tbQuestion.Enabled = false;
             this.tbQuestion.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold);
             this.tbQuestion.ForeColor = System.Drawing.Color.White;
-            this.tbQuestion.Location = new System.Drawing.Point(118, 156);
+            this.tbQuestion.Location = new System.Drawing.Point(39, 200);
             this.tbQuestion.Multiline = true;
             this.tbQuestion.Name = "tbQuestion";
             this.tbQuestion.ReadOnly = true;
-            this.tbQuestion.Size = new System.Drawing.Size(553, 92);
+            this.tbQuestion.Size = new System.Drawing.Size(682, 126);
             this.tbQuestion.TabIndex = 12;
             this.tbQuestion.Text = "jkashdkjjhsakljdhalkjsdhlkajshdkljahsdkjahskljdalsdhkaljsh dlkahs dlkhaklsjd hlka" +
-                "jhs dkja sdklhajsdh";
+                "jhs dkja sdklhajsdhdajsdlasdlkjas dasijd;oaisjdoiajsd asond;oasjd;oiajsd asiojdo" +
+                "aisjd";
             this.tbQuestion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pbCall
-            // 
-            this.pbCall.BackColor = System.Drawing.Color.Black;
-            this.pbCall.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbCall.Location = new System.Drawing.Point(173, 12);
-            this.pbCall.Name = "pbCall";
-            this.pbCall.Size = new System.Drawing.Size(116, 99);
-            this.pbCall.TabIndex = 6;
-            this.pbCall.TabStop = false;
-            this.pbCall.Click += new System.EventHandler(this.pbCall_Click);
-            // 
-            // pbAskTheAudience
-            // 
-            this.pbAskTheAudience.BackColor = System.Drawing.Color.Black;
-            this.pbAskTheAudience.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbAskTheAudience.Location = new System.Drawing.Point(314, 12);
-            this.pbAskTheAudience.Name = "pbAskTheAudience";
-            this.pbAskTheAudience.Size = new System.Drawing.Size(116, 99);
-            this.pbAskTheAudience.TabIndex = 5;
-            this.pbAskTheAudience.TabStop = false;
-            this.pbAskTheAudience.Click += new System.EventHandler(this.pbAskTheAudience_Click);
-            // 
-            // pb5050
-            // 
-            this.pb5050.BackColor = System.Drawing.Color.Black;
-            this.pb5050.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb5050.Location = new System.Drawing.Point(29, 12);
-            this.pb5050.Name = "pb5050";
-            this.pb5050.Size = new System.Drawing.Size(116, 99);
-            this.pb5050.TabIndex = 1;
-            this.pb5050.TabStop = false;
-            this.pb5050.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pb5050_MouseClick);
             // 
             // btnAnswerA
             // 
@@ -112,9 +75,9 @@
             this.btnAnswerA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnswerA.Font = new System.Drawing.Font("Arial Narrow", 20F);
             this.btnAnswerA.ForeColor = System.Drawing.Color.White;
-            this.btnAnswerA.Location = new System.Drawing.Point(118, 273);
+            this.btnAnswerA.Location = new System.Drawing.Point(76, 342);
             this.btnAnswerA.Name = "btnAnswerA";
-            this.btnAnswerA.Size = new System.Drawing.Size(256, 57);
+            this.btnAnswerA.Size = new System.Drawing.Size(291, 68);
             this.btnAnswerA.TabIndex = 14;
             this.btnAnswerA.Text = "Answer A";
             this.btnAnswerA.UseVisualStyleBackColor = false;
@@ -175,9 +138,9 @@
             this.btnAnswerC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnswerC.Font = new System.Drawing.Font("Arial Narrow", 20F);
             this.btnAnswerC.ForeColor = System.Drawing.Color.White;
-            this.btnAnswerC.Location = new System.Drawing.Point(118, 350);
+            this.btnAnswerC.Location = new System.Drawing.Point(76, 427);
             this.btnAnswerC.Name = "btnAnswerC";
-            this.btnAnswerC.Size = new System.Drawing.Size(256, 57);
+            this.btnAnswerC.Size = new System.Drawing.Size(291, 68);
             this.btnAnswerC.TabIndex = 23;
             this.btnAnswerC.Text = "Answer C";
             this.btnAnswerC.UseVisualStyleBackColor = false;
@@ -195,9 +158,9 @@
             this.btnAnswerD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnswerD.Font = new System.Drawing.Font("Arial Narrow", 20F);
             this.btnAnswerD.ForeColor = System.Drawing.Color.White;
-            this.btnAnswerD.Location = new System.Drawing.Point(415, 350);
+            this.btnAnswerD.Location = new System.Drawing.Point(405, 427);
             this.btnAnswerD.Name = "btnAnswerD";
-            this.btnAnswerD.Size = new System.Drawing.Size(256, 57);
+            this.btnAnswerD.Size = new System.Drawing.Size(291, 68);
             this.btnAnswerD.TabIndex = 25;
             this.btnAnswerD.Text = "Answer D";
             this.btnAnswerD.UseVisualStyleBackColor = false;
@@ -215,24 +178,13 @@
             this.btnAnswerB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnswerB.Font = new System.Drawing.Font("Arial Narrow", 20F);
             this.btnAnswerB.ForeColor = System.Drawing.Color.White;
-            this.btnAnswerB.Location = new System.Drawing.Point(415, 273);
+            this.btnAnswerB.Location = new System.Drawing.Point(405, 342);
             this.btnAnswerB.Name = "btnAnswerB";
-            this.btnAnswerB.Size = new System.Drawing.Size(256, 57);
+            this.btnAnswerB.Size = new System.Drawing.Size(291, 68);
             this.btnAnswerB.TabIndex = 27;
             this.btnAnswerB.Text = "Answer B";
             this.btnAnswerB.UseVisualStyleBackColor = false;
             this.btnAnswerB.Click += new System.EventHandler(this.btnAnswerB_Click);
-            // 
-            // pbOtkaziSe
-            // 
-            this.pbOtkaziSe.BackColor = System.Drawing.Color.Black;
-            this.pbOtkaziSe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbOtkaziSe.Location = new System.Drawing.Point(466, 12);
-            this.pbOtkaziSe.Name = "pbOtkaziSe";
-            this.pbOtkaziSe.Size = new System.Drawing.Size(116, 99);
-            this.pbOtkaziSe.TabIndex = 29;
-            this.pbOtkaziSe.TabStop = false;
-            this.pbOtkaziSe.Click += new System.EventHandler(this.pbOtkaziSe_Click);
             // 
             // btnZoomIn
             // 
@@ -245,6 +197,7 @@
             this.btnZoomIn.TabIndex = 30;
             this.btnZoomIn.Text = "+";
             this.btnZoomIn.UseVisualStyleBackColor = false;
+            this.btnZoomIn.Click += new System.EventHandler(this.btnZoomIn_Click);
             // 
             // btnZoomOut
             // 
@@ -257,6 +210,47 @@
             this.btnZoomOut.TabIndex = 31;
             this.btnZoomOut.Text = "-";
             this.btnZoomOut.UseVisualStyleBackColor = false;
+            this.btnZoomOut.Click += new System.EventHandler(this.btnZoomOut_Click);
+            // 
+            // btn5050
+            // 
+            this.btn5050.BackColor = System.Drawing.Color.MistyRose;
+            this.btn5050.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5050.Font = new System.Drawing.Font("Arial", 32F);
+            this.btn5050.Location = new System.Drawing.Point(39, 15);
+            this.btn5050.Name = "btn5050";
+            this.btn5050.Size = new System.Drawing.Size(233, 111);
+            this.btn5050.TabIndex = 32;
+            this.btn5050.Text = "Помош";
+            this.btn5050.UseVisualStyleBackColor = false;
+            this.btn5050.Click += new System.EventHandler(this.btn5050_Click);
+            // 
+            // btnOtkaziSe
+            // 
+            this.btnOtkaziSe.BackColor = System.Drawing.Color.MistyRose;
+            this.btnOtkaziSe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOtkaziSe.Font = new System.Drawing.Font("Arial", 30F);
+            this.btnOtkaziSe.Location = new System.Drawing.Point(329, 13);
+            this.btnOtkaziSe.Name = "btnOtkaziSe";
+            this.btnOtkaziSe.Size = new System.Drawing.Size(233, 111);
+            this.btnOtkaziSe.TabIndex = 33;
+            this.btnOtkaziSe.Text = "Откажи се";
+            this.btnOtkaziSe.UseVisualStyleBackColor = false;
+            this.btnOtkaziSe.Click += new System.EventHandler(this.btnOtkaziSe_Click);
+            // 
+            // tbBrojPrasanje
+            // 
+            this.tbBrojPrasanje.BackColor = System.Drawing.Color.MistyRose;
+            this.tbBrojPrasanje.Enabled = false;
+            this.tbBrojPrasanje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tbBrojPrasanje.Font = new System.Drawing.Font("Arial", 24F);
+            this.tbBrojPrasanje.ForeColor = System.Drawing.Color.Black;
+            this.tbBrojPrasanje.Location = new System.Drawing.Point(12, 140);
+            this.tbBrojPrasanje.Name = "tbBrojPrasanje";
+            this.tbBrojPrasanje.Size = new System.Drawing.Size(260, 45);
+            this.tbBrojPrasanje.TabIndex = 34;
+            this.tbBrojPrasanje.Text = "Помош";
+            this.tbBrojPrasanje.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -264,18 +258,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SeaGreen;
-            this.ClientSize = new System.Drawing.Size(756, 420);
+            this.ClientSize = new System.Drawing.Size(756, 507);
+            this.Controls.Add(this.tbBrojPrasanje);
+            this.Controls.Add(this.btnOtkaziSe);
+            this.Controls.Add(this.btn5050);
             this.Controls.Add(this.btnZoomOut);
             this.Controls.Add(this.btnZoomIn);
-            this.Controls.Add(this.pbOtkaziSe);
             this.Controls.Add(this.btnAnswerB);
             this.Controls.Add(this.btnAnswerD);
             this.Controls.Add(this.btnAnswerC);
-            this.Controls.Add(this.pb5050);
             this.Controls.Add(this.btnAnswerA);
             this.Controls.Add(this.tbQuestion);
-            this.Controls.Add(this.pbCall);
-            this.Controls.Add(this.pbAskTheAudience);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -284,11 +277,7 @@
             this.Text = "Кој сака да биде милионер?";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pbCall)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAskTheAudience)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5050)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbOtkaziSe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,9 +285,6 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pb5050;
-        private System.Windows.Forms.PictureBox pbAskTheAudience;
-        private System.Windows.Forms.PictureBox pbCall;
         private System.Windows.Forms.TextBox tbQuestion;
         private System.Windows.Forms.Button btnAnswerA;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -306,9 +292,11 @@
         private System.Windows.Forms.Button btnAnswerC;
         private System.Windows.Forms.Button btnAnswerD;
         private System.Windows.Forms.Button btnAnswerB;
-        private System.Windows.Forms.PictureBox pbOtkaziSe;
         private System.Windows.Forms.Button btnZoomIn;
         private System.Windows.Forms.Button btnZoomOut;
+        private System.Windows.Forms.Button btn5050;
+        private System.Windows.Forms.Button btnOtkaziSe;
+        private System.Windows.Forms.Button tbBrojPrasanje;
     }
 }
 

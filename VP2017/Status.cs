@@ -23,86 +23,79 @@ namespace VP2017
             player = new SoundPlayer(path);
             player.Play();
             timer1.Start();
-            timerBoja.Start();
-            timerBoja.Tick += (s, e) =>
-            this.BackColor = this.BackColor == Color.Black ? c : Color.Black;
-            ProveriSuma(i);       
+            this.BackColor = Color.MistyRose;
+            //timerBoja.Start();
+            //timerBoja.Tick += (s, e) =>
+            //this.BackColor = this.BackColor == Color.Black ? c : Color.Black;
+            //ProveriSuma(i);  
+            NapisiTekst(i);
         }
 
-        private void ProveriSuma(int i)
+
+        private void NapisiTekst(int i)
         {
             if (i == 1)
             {
-                lblPrice.Text = "500";
+                lblPrasanje.Text = "прашање број 1!";
             }
             else if (i == 2)
             {
-                lblPrice.Text = "1.000";
+                lblPrasanje.Text = "прашање број 2!";
             }
             else if (i == 3)
             {
-                lblPrice.Text = "2.000";
+                lblPrasanje.Text = "прашање број 3!";
             }
             else if (i == 4)
             {
-                lblPrice.Text = "3.000";
+                lblPrasanje.Text = "прашање број 4!";
             }
             else if (i == 5)
             {
-                label1.Text = "Гарантирана сума:";
-                lblPrice.Text = "5.000";
-                label3.Text = "денари";
+                lblPrasanje.Text = "прашање број 5!";
             }
             else if (i == 6)
             {
-                label1.Text = "Освоена сума:";
-                lblPrice.Text = "8.000";
-                label3.Text = "денари";
+                lblPrasanje.Text = "прашање број 6!";
             }
             else if (i == 7)
             {
-                lblPrice.Text = "16.000";
+                lblPrasanje.Text = "прашање број 7!";
             }
             else if (i == 8)
             {
-                lblPrice.Text = "32.000";
+                lblPrasanje.Text = "прашање број 8!";
             }
             else if (i == 9)
             {
-                lblPrice.Text = "64.000";
+                lblPrasanje.Text = "прашање број 9!";
             }
             else if (i == 10)
             {
-                label1.Text = "Гарантирана сума:";
-                lblPrice.Text = "125.000";
-                label3.Text = "денари";
+                lblPrasanje.Text = "прашање број 10!";
             }
             else if (i == 11)
             {
-                label1.Text = "Освоена сума:";
-                lblPrice.Text = "250.000";
-                label3.Text = "денари";
+                lblPrasanje.Text = "прашање број 11!";
             }
             else if (i == 12)
             {
-                lblPrice.Text = "500.000";
+                lblPrasanje.Text = "прашање број 12!";
             }
             else if (i == 13)
             {
-                lblPrice.Text = "1.000.000";
+                lblPrasanje.Text = "прашање број 13!";
             }
             else if (i == 14)
             {
-                lblPrice.Text = "2.000.000";
+                lblPrasanje.Text = "прашање број 14!";
             }
             else if (i == 15)
             {
-                label1.Text = "Освоена сума:";
-                lblPrice.Text = "4.000.000";
-                label3.Text = "денари";
+                lblPrasanje.Text = "прашање број 15!";
             }
         }
-
+        
         private void timer1_Tick(object sender, EventArgs e)
         {
             Close();
@@ -114,6 +107,7 @@ namespace VP2017
             timer1.Stop();
 
         }
+
         
     }
 }

@@ -45,19 +45,20 @@ namespace VP2017
         {
             player.Stop();
         }
-
+        
         private void btnInstructions_Click(object sender, EventArgs e)
         {
             InstructionsForm form = new InstructionsForm();
             form.ShowDialog();
         }
+         
 
         private void btnZoomIn_Click(object sender, EventArgs e)
         {
-            if (btnPlay.Font.Size < 50)
+            if (btnPlay.Font.Size < 48)
             {
                 Font f = new Font(btnPlay.Font.FontFamily, btnPlay.Font.Size + 2, FontStyle.Bold);
-                //btnInstructions.Font = f;
+                btnInstructions.Font = f;
                 btnPlay.Font = f;
             }
         }
@@ -67,7 +68,7 @@ namespace VP2017
             if (btnPlay.Font.Size > 20)
             {
                 Font f = new Font(btnPlay.Font.FontFamily, btnPlay.Font.Size - 2, FontStyle.Bold);
-                //btnInstructions.Font = f;
+                btnInstructions.Font = f;
                 btnPlay.Font = f;
             }          
         }

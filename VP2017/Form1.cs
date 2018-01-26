@@ -28,8 +28,8 @@ namespace VP2017
         List<int> Answers;
         int SecondAnswer5050;
         bool Clicked_5050;
-        bool Clicked_audience;
-        bool Clicked_phoneFriend;
+        //bool Clicked_audience;
+        //bool Clicked_phoneFriend;
         public bool isClosed;        
         List<int> VrednostiABCD;
         Random random;
@@ -50,8 +50,8 @@ namespace VP2017
             Answers = new List<int>();
             SecondAnswer5050 = 0;
             Clicked_5050 = false;
-            Clicked_audience = false;
-            Clicked_phoneFriend = false;
+            //Clicked_audience = false;
+            //Clicked_phoneFriend = false;
             isClosed = false;
             VrednostiABCD = new List<int>();
             random = new Random();
@@ -61,19 +61,20 @@ namespace VP2017
        
         private void Form1_Load(object sender, EventArgs e)
         {
-            pb5050.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb5050.Image = imageList1.Images[16];
-            pbAskTheAudience.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbAskTheAudience.Image = imageList1.Images[18];
-            pbCall.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbCall.Image = imageList1.Images[25];
-            pbOtkaziSe.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbOtkaziSe.Image = imageList1.Images[28];
+            //pb5050.SizeMode = PictureBoxSizeMode.StretchImage;
+            //pb5050.Image = imageList1.Images[16];
+            //pbAskTheAudience.SizeMode = PictureBoxSizeMode.StretchImage;
+            //pbAskTheAudience.Image = imageList1.Images[18];
+            //pbCall.SizeMode = PictureBoxSizeMode.StretchImage;
+            //pbCall.Image = imageList1.Images[25];
+            //pbOtkaziSe.SizeMode = PictureBoxSizeMode.StretchImage;
+            //pbOtkaziSe.Image = imageList1.Images[28];
             //pbQuestions.SizeMode = PictureBoxSizeMode.StretchImage;
             //pbQuestions.Image = imageList1.Images[27];
             PopolniPrasanje();
             //dodadeno!!!
             play.PlayLooping();
+            //tbBrojPrasanje.ForeColor = Color.White;
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -89,7 +90,7 @@ namespace VP2017
         {
             //dodadeno!!!
             play.PlayLooping();
-
+            tbBrojPrasanje.Text = "Прашање: " + i + "/15";
             EnableButtons();
             if (i <= 5)
             {
@@ -308,8 +309,8 @@ namespace VP2017
             btnAnswerB.Enabled = true;
             btnAnswerC.Enabled = true;
             btnAnswerD.Enabled = true;
-            pbAskTheAudience.Enabled = true;
-            pbCall.Enabled = true;
+            //pbAskTheAudience.Enabled = true;
+            //pbCall.Enabled = true;
         }
         private void FindAnswerFromAudience(string correctAnswer)
         {
@@ -551,6 +552,7 @@ namespace VP2017
         #endregion
 
         #region Joker_buttons (Ask the audience, 50/50, Call a friend)
+        /*
         private void pb5050_MouseClick(object sender, MouseEventArgs e)
         {
             if (!Clicked_5050)
@@ -560,9 +562,11 @@ namespace VP2017
             }
             pb5050.SizeMode = PictureBoxSizeMode.StretchImage;
             pb5050.Image = imageList1.Images[17];
-            pbAskTheAudience.Enabled = false;
-            pbCall.Enabled = false;
+            //pbAskTheAudience.Enabled = false;
+            //pbCall.Enabled = false;
         }
+         * */
+        /*
         private void pbCall_Click(object sender, EventArgs e)
         {
             //dodadeno!!!
@@ -577,6 +581,8 @@ namespace VP2017
             pbCall.SizeMode = PictureBoxSizeMode.StretchImage;
             pbCall.Image = imageList1.Images[26];
         }
+         * */
+        /*
         private void pbAskTheAudience_Click(object sender, EventArgs e)
         {
             play.Stop();
@@ -590,16 +596,80 @@ namespace VP2017
             pbAskTheAudience.SizeMode = PictureBoxSizeMode.StretchImage;
             pbAskTheAudience.Image = imageList1.Images[19];
         }
+         * */
         #endregion
-
+        /*
         private void pbOtkaziSe_Click(object sender, EventArgs e)
         {
             ExitForm form = new ExitForm(i);
             form.ShowDialog();
             isClosed = true;
             this.Close();
-        }
+        }*/
        
         #endregion
+
+        private void btn5050_Click(object sender, EventArgs e)
+        {
+            if (!Clicked_5050)
+            {
+                Find5050(correctAnswer);
+                Clicked_5050 = true;
+            }
+            btn5050.Enabled = false;
+        }
+
+        private void btnOtkaziSe_Click(object sender, EventArgs e)
+        {
+            ExitForm form = new ExitForm(i);
+            form.ShowDialog();
+            isClosed = true;
+            this.Close();
+        }
+
+        private void btnZoomIn_Click(object sender, EventArgs e)
+        {
+            if (btn5050.Font.Size < 42)
+            {
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2);
+                btn5050.Font = f;
+            }
+            if (btnOtkaziSe.Font.Size < 32)
+            {
+                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2);
+                btnOtkaziSe.Font = f;
+            }
+            if (btnAnswerA.Font.Size < 24)
+            {
+                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size + 2);
+                btnAnswerA.Font = f;
+                btnAnswerB.Font = f;
+                btnAnswerC.Font = f;
+                btnAnswerD.Font = f;
+            }
+
+        }
+
+        private void btnZoomOut_Click(object sender, EventArgs e)
+        {
+            if (btn5050.Font.Size > 20)
+            {
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2);
+                btn5050.Font = f;
+            }
+            if (btnOtkaziSe.Font.Size >20)
+            {
+                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2);
+                btnOtkaziSe.Font = f;
+            }
+            if (btnAnswerA.Font.Size >16)
+            {
+                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2);
+                btnAnswerA.Font = f;
+                btnAnswerB.Font = f;
+                btnAnswerC.Font = f;
+                btnAnswerD.Font = f;
+            }
+        }
     }
 }

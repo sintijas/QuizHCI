@@ -29,17 +29,7 @@ namespace VP2017
         private void WrongAnswerForm_Load(object sender, EventArgs e)
         {
             tbTocenOdgovor.Text = correct;
-            tbOsvoenaSuma.Text = string.Format("Освоена сума: {0:n0} денари",Fill());
-        }
-
-        private long Fill()
-        {
-            if (brPrasanje <= 5)
-            {
-                return 0;
-            }
-            else if (brPrasanje <= 10) return 5000;
-            else return 125000;
+            //tbOsvoenaSuma.Text = string.Format("Освоена сума: {0:n0} денари",Fill());
         }
 
         private void timer1_Tick(object sender, EventArgs e)

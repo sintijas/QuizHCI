@@ -32,6 +32,7 @@
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnZoomIn = new System.Windows.Forms.Button();
             this.btnZoomOut = new System.Windows.Forms.Button();
+            this.btnInstructions = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPlay
@@ -43,9 +44,9 @@
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlay.Font = new System.Drawing.Font("Arial", 40F, System.Drawing.FontStyle.Bold);
             this.btnPlay.ForeColor = System.Drawing.Color.Black;
-            this.btnPlay.Location = new System.Drawing.Point(182, 188);
+            this.btnPlay.Location = new System.Drawing.Point(12, 142);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(402, 183);
+            this.btnPlay.Size = new System.Drawing.Size(334, 194);
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Нова игра";
             this.btnPlay.UseVisualStyleBackColor = false;
@@ -85,12 +86,30 @@
             this.btnZoomOut.UseVisualStyleBackColor = false;
             this.btnZoomOut.Click += new System.EventHandler(this.btnZoomOut_Click);
             // 
+            // btnInstructions
+            // 
+            this.btnInstructions.BackColor = System.Drawing.Color.MistyRose;
+            this.btnInstructions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInstructions.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnInstructions.FlatAppearance.BorderSize = 3;
+            this.btnInstructions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInstructions.Font = new System.Drawing.Font("Arial", 40F, System.Drawing.FontStyle.Bold);
+            this.btnInstructions.ForeColor = System.Drawing.Color.Black;
+            this.btnInstructions.Location = new System.Drawing.Point(392, 142);
+            this.btnInstructions.Name = "btnInstructions";
+            this.btnInstructions.Size = new System.Drawing.Size(334, 194);
+            this.btnInstructions.TabIndex = 4;
+            this.btnInstructions.Text = "Упатство";
+            this.btnInstructions.UseVisualStyleBackColor = false;
+            this.btnInstructions.Click += new System.EventHandler(this.btnInstructions_Click);
+            // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(746, 406);
+            this.Controls.Add(this.btnInstructions);
             this.Controls.Add(this.btnZoomOut);
             this.Controls.Add(this.btnZoomIn);
             this.Controls.Add(this.btnPlay);
@@ -111,5 +130,6 @@
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnZoomIn;
         private System.Windows.Forms.Button btnZoomOut;
+        private System.Windows.Forms.Button btnInstructions;
     }
 }
