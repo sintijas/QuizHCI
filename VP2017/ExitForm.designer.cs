@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExitForm));
             this.tbOtkaziSe = new System.Windows.Forms.TextBox();
-            this.tbKolkuDenari = new System.Windows.Forms.TextBox();
             this.btnClose = new System.Windows.Forms.Button();
+            this.tbKolkuDenari = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbOtkaziSe
             // 
-            this.tbOtkaziSe.BackColor = System.Drawing.Color.Black;
+            this.tbOtkaziSe.BackColor = System.Drawing.Color.MistyRose;
             this.tbOtkaziSe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbOtkaziSe.Enabled = false;
             this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbOtkaziSe.ForeColor = System.Drawing.Color.White;
+            this.tbOtkaziSe.ForeColor = System.Drawing.Color.Black;
             this.tbOtkaziSe.Location = new System.Drawing.Point(12, 12);
             this.tbOtkaziSe.Multiline = true;
             this.tbOtkaziSe.Name = "tbOtkaziSe";
@@ -49,14 +49,33 @@
             this.tbOtkaziSe.TabIndex = 6;
             this.tbOtkaziSe.Text = "Освоена сума:";
             this.tbOtkaziSe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbOtkaziSe.TextChanged += new System.EventHandler(this.tbOtkaziSe_TextChanged);
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.MistyRose;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnClose.FlatAppearance.BorderSize = 4;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Arial Narrow", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Location = new System.Drawing.Point(111, 127);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(156, 46);
+            this.btnClose.TabIndex = 8;
+            this.btnClose.Text = "Затвори";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnNe_Click);
             // 
             // tbKolkuDenari
             // 
-            this.tbKolkuDenari.BackColor = System.Drawing.Color.Black;
+            this.tbKolkuDenari.BackColor = System.Drawing.Color.MistyRose;
             this.tbKolkuDenari.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbKolkuDenari.Enabled = false;
             this.tbKolkuDenari.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbKolkuDenari.ForeColor = System.Drawing.Color.White;
+            this.tbKolkuDenari.ForeColor = System.Drawing.Color.Black;
             this.tbKolkuDenari.Location = new System.Drawing.Point(12, 67);
             this.tbKolkuDenari.Multiline = true;
             this.tbKolkuDenari.Name = "tbKolkuDenari";
@@ -66,28 +85,12 @@
             this.tbKolkuDenari.Text = "50";
             this.tbKolkuDenari.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btnClose
-            // 
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(136)))), ((int)(((byte)(235)))));
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Arial Narrow", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnClose.ForeColor = System.Drawing.Color.Gray;
-            this.btnClose.Location = new System.Drawing.Point(111, 127);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(156, 46);
-            this.btnClose.TabIndex = 8;
-            this.btnClose.Text = "Затвори";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnNe_Click);
-            // 
             // ExitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(380, 185);
+            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.ClientSize = new System.Drawing.Size(380, 186);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.tbKolkuDenari);
             this.Controls.Add(this.tbOtkaziSe);
@@ -107,8 +110,8 @@
         #endregion
 
         private System.Windows.Forms.TextBox tbOtkaziSe;
-        private System.Windows.Forms.TextBox tbKolkuDenari;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.TextBox tbKolkuDenari;
 
     }
 }

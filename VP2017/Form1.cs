@@ -56,6 +56,12 @@ namespace VP2017
             VrednostiABCD = new List<int>();
             random = new Random();
             play = new SoundPlayer(path);
+
+            btn5050.FlatAppearance.BorderSize = 5;
+            btnOtkaziSe.FlatAppearance.BorderSize = 5;
+            btnZoomIn.FlatAppearance.BorderSize = 3;
+            btnZoomOut.FlatAppearance.BorderSize = 3;
+            tbBrojPrasanje.ForeColor = Color.Black;
         }
      
        
@@ -74,7 +80,7 @@ namespace VP2017
             PopolniPrasanje();
             //dodadeno!!!
             play.PlayLooping();
-            //tbBrojPrasanje.ForeColor = Color.White;
+            
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -436,7 +442,7 @@ namespace VP2017
             {
                 play.PlayLooping();
             }
-            btnAnswerA.ForeColor = Color.White;
+            btnAnswerA.ForeColor = Color.Black;
         }
 
         private void btnAnswerB_Click(object sender, EventArgs e)
@@ -473,7 +479,7 @@ namespace VP2017
             {
                 play.PlayLooping();
             }
-            btnAnswerB.ForeColor = Color.White;
+            btnAnswerB.ForeColor = Color.Black;
         }
 
         private void btnAnswerC_Click(object sender, EventArgs e)
@@ -510,7 +516,7 @@ namespace VP2017
             {
                 play.PlayLooping();
             }
-            btnAnswerC.ForeColor = Color.White;
+            btnAnswerC.ForeColor = Color.Black;
         }
 
         private void btnAnswerD_Click(object sender, EventArgs e)
@@ -547,7 +553,7 @@ namespace VP2017
             {
                 play.PlayLooping();
             }
-            btnAnswerD.ForeColor = Color.White;
+            btnAnswerD.ForeColor = Color.Black;
         }
         #endregion
 
@@ -670,5 +676,9 @@ namespace VP2017
                 btnAnswerD.Font = f;
             }
         }
+
+        
+
+
     }
 }

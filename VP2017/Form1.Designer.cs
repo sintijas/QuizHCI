@@ -47,11 +47,11 @@
             // 
             // tbQuestion
             // 
-            this.tbQuestion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbQuestion.BackColor = System.Drawing.Color.MistyRose;
             this.tbQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbQuestion.Enabled = false;
             this.tbQuestion.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold);
-            this.tbQuestion.ForeColor = System.Drawing.Color.White;
+            this.tbQuestion.ForeColor = System.Drawing.Color.Black;
             this.tbQuestion.Location = new System.Drawing.Point(39, 200);
             this.tbQuestion.Multiline = true;
             this.tbQuestion.Name = "tbQuestion";
@@ -65,16 +65,14 @@
             // 
             // btnAnswerA
             // 
-            this.btnAnswerA.BackColor = System.Drawing.Color.Black;
+            this.btnAnswerA.BackColor = System.Drawing.Color.MistyRose;
             this.btnAnswerA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAnswerA.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAnswerA.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnAnswerA.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
             this.btnAnswerA.FlatAppearance.BorderSize = 0;
-            this.btnAnswerA.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btnAnswerA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnAnswerA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnswerA.Font = new System.Drawing.Font("Arial Narrow", 20F);
-            this.btnAnswerA.ForeColor = System.Drawing.Color.White;
+            this.btnAnswerA.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold);
+            this.btnAnswerA.ForeColor = System.Drawing.Color.Black;
             this.btnAnswerA.Location = new System.Drawing.Point(76, 342);
             this.btnAnswerA.Name = "btnAnswerA";
             this.btnAnswerA.Size = new System.Drawing.Size(291, 68);
@@ -85,7 +83,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Black;
+            this.pictureBox1.BackColor = System.Drawing.Color.SteelBlue;
             this.pictureBox1.Location = new System.Drawing.Point(-4, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(763, 133);
@@ -128,16 +126,14 @@
             // 
             // btnAnswerC
             // 
-            this.btnAnswerC.BackColor = System.Drawing.Color.Black;
+            this.btnAnswerC.BackColor = System.Drawing.Color.MistyRose;
             this.btnAnswerC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAnswerC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAnswerC.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnAnswerC.FlatAppearance.BorderSize = 0;
-            this.btnAnswerC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btnAnswerC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnAnswerC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnswerC.Font = new System.Drawing.Font("Arial Narrow", 20F);
-            this.btnAnswerC.ForeColor = System.Drawing.Color.White;
+            this.btnAnswerC.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold);
+            this.btnAnswerC.ForeColor = System.Drawing.Color.Black;
             this.btnAnswerC.Location = new System.Drawing.Point(76, 427);
             this.btnAnswerC.Name = "btnAnswerC";
             this.btnAnswerC.Size = new System.Drawing.Size(291, 68);
@@ -148,16 +144,14 @@
             // 
             // btnAnswerD
             // 
-            this.btnAnswerD.BackColor = System.Drawing.Color.Black;
+            this.btnAnswerD.BackColor = System.Drawing.Color.MistyRose;
             this.btnAnswerD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAnswerD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAnswerD.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnAnswerD.FlatAppearance.BorderSize = 0;
-            this.btnAnswerD.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btnAnswerD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnAnswerD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnswerD.Font = new System.Drawing.Font("Arial Narrow", 20F);
-            this.btnAnswerD.ForeColor = System.Drawing.Color.White;
+            this.btnAnswerD.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold);
+            this.btnAnswerD.ForeColor = System.Drawing.Color.Black;
             this.btnAnswerD.Location = new System.Drawing.Point(405, 427);
             this.btnAnswerD.Name = "btnAnswerD";
             this.btnAnswerD.Size = new System.Drawing.Size(291, 68);
@@ -168,16 +162,14 @@
             // 
             // btnAnswerB
             // 
-            this.btnAnswerB.BackColor = System.Drawing.Color.Black;
+            this.btnAnswerB.BackColor = System.Drawing.Color.MistyRose;
             this.btnAnswerB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAnswerB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAnswerB.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnAnswerB.FlatAppearance.BorderSize = 0;
-            this.btnAnswerB.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btnAnswerB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnAnswerB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnswerB.Font = new System.Drawing.Font("Arial Narrow", 20F);
-            this.btnAnswerB.ForeColor = System.Drawing.Color.White;
+            this.btnAnswerB.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold);
+            this.btnAnswerB.ForeColor = System.Drawing.Color.Black;
             this.btnAnswerB.Location = new System.Drawing.Point(405, 342);
             this.btnAnswerB.Name = "btnAnswerB";
             this.btnAnswerB.Size = new System.Drawing.Size(291, 68);
@@ -216,7 +208,7 @@
             // 
             this.btn5050.BackColor = System.Drawing.Color.MistyRose;
             this.btn5050.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5050.Font = new System.Drawing.Font("Arial", 32F);
+            this.btn5050.Font = new System.Drawing.Font("Arial", 32F, System.Drawing.FontStyle.Underline);
             this.btn5050.Location = new System.Drawing.Point(39, 15);
             this.btn5050.Name = "btn5050";
             this.btn5050.Size = new System.Drawing.Size(233, 111);
@@ -229,7 +221,7 @@
             // 
             this.btnOtkaziSe.BackColor = System.Drawing.Color.MistyRose;
             this.btnOtkaziSe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOtkaziSe.Font = new System.Drawing.Font("Arial", 30F);
+            this.btnOtkaziSe.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Underline);
             this.btnOtkaziSe.Location = new System.Drawing.Point(329, 13);
             this.btnOtkaziSe.Name = "btnOtkaziSe";
             this.btnOtkaziSe.Size = new System.Drawing.Size(233, 111);
@@ -257,7 +249,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(756, 507);
             this.Controls.Add(this.tbBrojPrasanje);
             this.Controls.Add(this.btnOtkaziSe);

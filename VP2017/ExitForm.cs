@@ -95,5 +95,10 @@ namespace VP2017
             player.Stop();
         }
 
+        private void tbOtkaziSe_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -37,42 +37,43 @@
             // lblKonecenOdgovor
             // 
             this.lblKonecenOdgovor.AutoSize = true;
-            this.lblKonecenOdgovor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblKonecenOdgovor.ForeColor = System.Drawing.Color.White;
-            this.lblKonecenOdgovor.Location = new System.Drawing.Point(12, 34);
+            this.lblKonecenOdgovor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblKonecenOdgovor.ForeColor = System.Drawing.Color.Black;
+            this.lblKonecenOdgovor.Location = new System.Drawing.Point(-2, 32);
             this.lblKonecenOdgovor.Name = "lblKonecenOdgovor";
-            this.lblKonecenOdgovor.Size = new System.Drawing.Size(364, 25);
+            this.lblKonecenOdgovor.Size = new System.Drawing.Size(384, 24);
             this.lblKonecenOdgovor.TabIndex = 2;
             this.lblKonecenOdgovor.Text = "Дали е тоа Вашиот конечен одговор?";
             // 
             // btnOK
             // 
-            this.btnOK.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnOK.BackColor = System.Drawing.Color.MistyRose;
             this.btnOK.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOK.FlatAppearance.BorderSize = 0;
+            this.btnOK.FlatAppearance.BorderSize = 2;
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOK.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnOK.Font = new System.Drawing.Font("Arial Narrow", 23F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnOK.ForeColor = System.Drawing.Color.Black;
-            this.btnOK.Location = new System.Drawing.Point(12, 99);
+            this.btnOK.Location = new System.Drawing.Point(12, 81);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(170, 35);
+            this.btnOK.Size = new System.Drawing.Size(167, 53);
             this.btnOK.TabIndex = 4;
-            this.btnOK.Text = "Да";
+            this.btnOK.Text = "ДA";
             this.btnOK.UseVisualStyleBackColor = false;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnNe
             // 
-            this.btnNe.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnNe.BackColor = System.Drawing.Color.MistyRose;
             this.btnNe.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNe.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnNe.FlatAppearance.BorderSize = 2;
             this.btnNe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNe.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnNe.Location = new System.Drawing.Point(198, 99);
+            this.btnNe.Font = new System.Drawing.Font("Arial Narrow", 23F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnNe.Location = new System.Drawing.Point(198, 81);
             this.btnNe.Name = "btnNe";
-            this.btnNe.Size = new System.Drawing.Size(170, 35);
+            this.btnNe.Size = new System.Drawing.Size(170, 53);
             this.btnNe.TabIndex = 5;
-            this.btnNe.Text = "Не";
+            this.btnNe.Text = "НE";
             this.btnNe.UseVisualStyleBackColor = false;
             this.btnNe.Click += new System.EventHandler(this.btnNe_Click);
             // 
@@ -81,9 +82,9 @@
             this.AcceptButton = this.btnOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.SandyBrown;
             this.CancelButton = this.btnNe;
-            this.ClientSize = new System.Drawing.Size(380, 148);
+            this.ClientSize = new System.Drawing.Size(380, 149);
             this.Controls.Add(this.btnNe);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.lblKonecenOdgovor);

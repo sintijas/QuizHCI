@@ -107,8 +107,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SeaGreen;
-            this.ClientSize = new System.Drawing.Size(746, 406);
+            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.ClientSize = new System.Drawing.Size(746, 407);
             this.Controls.Add(this.btnInstructions);
             this.Controls.Add(this.btnZoomOut);
             this.Controls.Add(this.btnZoomIn);

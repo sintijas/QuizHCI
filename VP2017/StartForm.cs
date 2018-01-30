@@ -18,6 +18,10 @@ namespace VP2017
             InitializeComponent();
             //BackgroundImageLayout = ImageLayout.Stretch;
             player = new SoundPlayer(path);
+            btnPlay.FlatAppearance.BorderSize = 5;
+            btnInstructions.FlatAppearance.BorderSize = 5;
+            btnZoomIn.FlatAppearance.BorderSize = 4;
+            btnZoomOut.FlatAppearance.BorderSize = 4;
         }
 
         private void btnPlay_Click(object sender, EventArgs e)

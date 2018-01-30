@@ -36,43 +36,45 @@
             // 
             // btnClose
             // 
+            this.btnClose.BackColor = System.Drawing.Color.MistyRose;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(136)))), ((int)(((byte)(235)))));
+            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnClose.FlatAppearance.BorderSize = 2;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Arial Narrow", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnClose.ForeColor = System.Drawing.Color.Gray;
-            this.btnClose.Location = new System.Drawing.Point(209, 140);
+            this.btnClose.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Location = new System.Drawing.Point(178, 173);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(156, 46);
+            this.btnClose.Size = new System.Drawing.Size(197, 73);
             this.btnClose.TabIndex = 11;
-            this.btnClose.Text = "Затвори";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Text = "ЗАТВОРИ";
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // tbKolkuDenari
             // 
-            this.tbKolkuDenari.BackColor = System.Drawing.Color.Black;
+            this.tbKolkuDenari.BackColor = System.Drawing.Color.SandyBrown;
             this.tbKolkuDenari.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbKolkuDenari.Enabled = false;
             this.tbKolkuDenari.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbKolkuDenari.ForeColor = System.Drawing.Color.White;
+            this.tbKolkuDenari.ForeColor = System.Drawing.Color.Black;
             this.tbKolkuDenari.Location = new System.Drawing.Point(12, 69);
             this.tbKolkuDenari.Multiline = true;
             this.tbKolkuDenari.Name = "tbKolkuDenari";
             this.tbKolkuDenari.ReadOnly = true;
-            this.tbKolkuDenari.Size = new System.Drawing.Size(527, 54);
+            this.tbKolkuDenari.Size = new System.Drawing.Size(560, 98);
             this.tbKolkuDenari.TabIndex = 10;
-            this.tbKolkuDenari.Text = "ОСВОИВТЕ 4.000.000 ДЕНАРИ!";
+            this.tbKolkuDenari.Text = "ГИ ОДГОВОРИВТЕ СИТЕ ПРАШАЊА ТОЧНО";
             this.tbKolkuDenari.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbOtkaziSe
             // 
-            this.tbOtkaziSe.BackColor = System.Drawing.Color.Black;
+            this.tbOtkaziSe.BackColor = System.Drawing.Color.SandyBrown;
             this.tbOtkaziSe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbOtkaziSe.Enabled = false;
             this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbOtkaziSe.ForeColor = System.Drawing.Color.White;
+            this.tbOtkaziSe.ForeColor = System.Drawing.Color.Black;
             this.tbOtkaziSe.Location = new System.Drawing.Point(100, 12);
             this.tbOtkaziSe.Multiline = true;
             this.tbOtkaziSe.Name = "tbOtkaziSe";
@@ -86,11 +88,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(551, 214);
+            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.ClientSize = new System.Drawing.Size(577, 271);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.tbKolkuDenari);
             this.Controls.Add(this.tbOtkaziSe);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WinnerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
