@@ -315,94 +315,8 @@ namespace VP2017
             btnAnswerB.Enabled = true;
             btnAnswerC.Enabled = true;
             btnAnswerD.Enabled = true;
-            //pbAskTheAudience.Enabled = true;
-            //pbCall.Enabled = true;
         }
-        private void FindAnswerFromAudience(string correctAnswer)
-        {
-            int a = 0, b = 0, c = 0, d = 0; //procentite ke bidat ovie
-
-            if (correctAnswer == btnAnswerA.Text)
-                corrButton = 1;
-            else if (correctAnswer == btnAnswerB.Text)
-                corrButton = 2;
-            else if (correctAnswer == btnAnswerC.Text)
-                corrButton = 3;
-            else if (correctAnswer == btnAnswerD.Text)
-                corrButton = 4;
-            if (i <= 5) // prvo nivo
-            {
-                if (corrButton == 1)
-                {
-                    a = random.Next(90, 101);
-                    b = random.Next(0, 100 - a + 1);
-                    c = random.Next(0, 100 - a - b + 1);
-                    d = random.Next(0, 100 - b - a - c + 1);
-                }
-                else if (corrButton == 2)
-                {
-                    b = random.Next(90, 101);
-                    a = random.Next(0, 100 - b + 1);
-                    c = random.Next(0, 100 - b - a + 1);
-                    d = random.Next(0, 100 - b - a - c + 1);
-                }
-                else if (corrButton == 3)
-                {
-                    c = random.Next(90, 101);
-                    b = random.Next(0, 100 - c + 1);
-                    a = random.Next(0, 100 - c - b + 1);
-                    d = random.Next(0, 100 - c - b - a + 1);
-                }
-                else if (corrButton == 4)
-                {
-                    d = random.Next(90, 101);
-                    b = random.Next(0, 100 - d + 1);
-                    c = random.Next(0, 100 - d - b + 1);
-                    a = random.Next(0, 100 - d - b - c + 1);
-                }
-            }
-            else if (i <= 10)
-            {
-                if (corrButton == 1)
-                {
-                    a = random.Next(60, 81);
-                    b = random.Next(0, 100 - a + 1);
-                    c = random.Next(0, 100 - a - b + 1);
-                    d = random.Next(0, 100 - a - b - c + 1);
-                }
-                else if (corrButton == 2)
-                {
-                    b = random.Next(60, 81);
-                    a = random.Next(0, 100 - b + 1);
-                    c = random.Next(0, 100 - b - a + 1);
-                    d = random.Next(0, 100 - b - a - c + 1);
-                }
-                else if (corrButton == 3)
-                {
-                    c = random.Next(60, 81);
-                    b = random.Next(0, 100 - c + 1);
-                    a = random.Next(0, 100 - c - b + 1);
-                    d = random.Next(0, 100 - c - b - a + 1);
-                }
-                else if (corrButton == 4)
-                {
-                    d = random.Next(60, 81);
-                    b = random.Next(0, 100 - d + 1);
-                    c = random.Next(0, 100 - d - b + 1);
-                    a = random.Next(0, 100 - d - b - c + 1);
-                }
-            }
-            else if (i <= 15)
-            {
-                a = random.Next(0, 50);
-                b = random.Next(0, 100 - a + 1);
-                c = random.Next(0, 100 - a - b + 1);
-                d = random.Next(0, 100 - a - b - c + 1);
-            }
-
-            ChartForm chartform = new ChartForm(a, b, c, d);
-            chartform.ShowDialog();
-        }      
+       
 #endregion
 
         #region Buttons_Click
@@ -410,7 +324,6 @@ namespace VP2017
         #region A_B_C_D_buttons click
         private void btnAnswerA_Click(object sender, EventArgs e)
         {
-            //dodadeno!!!
             play.Stop();
             btnAnswerA.ForeColor = Color.Orange;
             FormFinalAnswer form = new FormFinalAnswer(i);
@@ -447,7 +360,6 @@ namespace VP2017
 
         private void btnAnswerB_Click(object sender, EventArgs e)
         {
-            //dodadeno!!!
             play.Stop();
             btnAnswerB.ForeColor = Color.Orange;
             FormFinalAnswer form = new FormFinalAnswer(i);
@@ -484,7 +396,6 @@ namespace VP2017
 
         private void btnAnswerC_Click(object sender, EventArgs e)
         {
-            //dodadeno!!!
             play.Stop();
             btnAnswerC.ForeColor = Color.Orange;
             FormFinalAnswer form = new FormFinalAnswer(i);
@@ -521,7 +432,6 @@ namespace VP2017
 
         private void btnAnswerD_Click(object sender, EventArgs e)
         {
-            //dodadeno!!!
             play.Stop();
             btnAnswerD.ForeColor = Color.Orange;
             FormFinalAnswer form = new FormFinalAnswer(i);
@@ -556,62 +466,6 @@ namespace VP2017
             btnAnswerD.ForeColor = Color.Black;
         }
         #endregion
-
-        #region Joker_buttons (Ask the audience, 50/50, Call a friend)
-        /*
-        private void pb5050_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (!Clicked_5050)
-            {
-                Find5050(correctAnswer);
-                Clicked_5050 = true;
-            }
-            pb5050.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb5050.Image = imageList1.Images[17];
-            //pbAskTheAudience.Enabled = false;
-            //pbCall.Enabled = false;
-        }
-         * */
-        /*
-        private void pbCall_Click(object sender, EventArgs e)
-        {
-            //dodadeno!!!
-            play.Stop();
-            if (!Clicked_phoneFriend)
-            {
-                CallForm callform = new CallForm(correctAnswer, btnAnswerA.Text, btnAnswerB.Text, btnAnswerC.Text, btnAnswerD.Text);
-                callform.ShowDialog();
-                Clicked_phoneFriend = true;
-                play.PlayLooping();
-            }
-            pbCall.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbCall.Image = imageList1.Images[26];
-        }
-         * */
-        /*
-        private void pbAskTheAudience_Click(object sender, EventArgs e)
-        {
-            play.Stop();
-            if (!Clicked_audience)
-            {
-                FindAnswerFromAudience(correctAnswer);
-                Clicked_audience = true;
-                play.PlayLooping();
-
-            }
-            pbAskTheAudience.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbAskTheAudience.Image = imageList1.Images[19];
-        }
-         * */
-        #endregion
-        /*
-        private void pbOtkaziSe_Click(object sender, EventArgs e)
-        {
-            ExitForm form = new ExitForm(i);
-            form.ShowDialog();
-            isClosed = true;
-            this.Close();
-        }*/
        
         #endregion
 
@@ -627,7 +481,7 @@ namespace VP2017
 
         private void btnOtkaziSe_Click(object sender, EventArgs e)
         {
-            ExitForm form = new ExitForm(i);
+            ExitForm form = new ExitForm(i, correctAnswer);
             form.ShowDialog();
             isClosed = true;
             this.Close();
@@ -637,17 +491,17 @@ namespace VP2017
         {
             if (btn5050.Font.Size < 42)
             {
-                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2);
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2, FontStyle.Underline);
                 btn5050.Font = f;
             }
-            if (btnOtkaziSe.Font.Size < 32)
+            if (btnOtkaziSe.Font.Size < 30)
             {
-                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2);
+                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2, FontStyle.Underline);
                 btnOtkaziSe.Font = f;
             }
             if (btnAnswerA.Font.Size < 28)
             {
-                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size + 2);
+                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size + 2, FontStyle.Bold);
                 btnAnswerA.Font = f;
                 btnAnswerB.Font = f;
                 btnAnswerC.Font = f;
@@ -659,17 +513,17 @@ namespace VP2017
         {
             if (btn5050.Font.Size > 20)
             {
-                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2);
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2, FontStyle.Underline);
                 btn5050.Font = f;
             }
             if (btnOtkaziSe.Font.Size >20)
             {
-                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2);
+                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2, FontStyle.Underline);
                 btnOtkaziSe.Font = f;
             }
             if (btnAnswerA.Font.Size >18)
             {
-                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2);
+                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2, FontStyle.Bold);
                 btnAnswerA.Font = f;
                 btnAnswerB.Font = f;
                 btnAnswerC.Font = f;

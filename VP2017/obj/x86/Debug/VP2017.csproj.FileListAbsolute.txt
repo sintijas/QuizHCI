@@ -218,8 +218,6 @@ E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Mil
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Debug\VP2017.exe
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\bin\Debug\VP2017.pdb
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Debug\VP2017.csprojResolveAssemblyReference.cache
-E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Debug\VP2017.CallForm.resources
-E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Debug\VP2017.ChartForm.resources
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Debug\VP2017.Form1.resources
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Debug\VP2017.FormFinalAnswer.resources
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\Milioner-VP\Millionaire-master\Millionaire-master\VP2017\obj\x86\Debug\VP2017.InstructionsForm.resources

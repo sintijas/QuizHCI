@@ -44,7 +44,7 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnClose.ForeColor = System.Drawing.Color.Black;
-            this.btnClose.Location = new System.Drawing.Point(178, 173);
+            this.btnClose.Location = new System.Drawing.Point(184, 173);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(197, 73);
             this.btnClose.TabIndex = 11;
@@ -57,7 +57,7 @@
             this.tbKolkuDenari.BackColor = System.Drawing.Color.SandyBrown;
             this.tbKolkuDenari.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbKolkuDenari.Enabled = false;
-            this.tbKolkuDenari.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbKolkuDenari.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbKolkuDenari.ForeColor = System.Drawing.Color.Black;
             this.tbKolkuDenari.Location = new System.Drawing.Point(12, 69);
             this.tbKolkuDenari.Multiline = true;
@@ -73,7 +73,7 @@
             this.tbOtkaziSe.BackColor = System.Drawing.Color.SandyBrown;
             this.tbOtkaziSe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbOtkaziSe.Enabled = false;
-            this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbOtkaziSe.ForeColor = System.Drawing.Color.Black;
             this.tbOtkaziSe.Location = new System.Drawing.Point(100, 12);
             this.tbOtkaziSe.Multiline = true;

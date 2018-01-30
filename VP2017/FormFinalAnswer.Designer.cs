@@ -36,14 +36,14 @@
             // 
             // lblKonecenOdgovor
             // 
-            this.lblKonecenOdgovor.AutoSize = true;
-            this.lblKonecenOdgovor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblKonecenOdgovor.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
             this.lblKonecenOdgovor.ForeColor = System.Drawing.Color.Black;
-            this.lblKonecenOdgovor.Location = new System.Drawing.Point(-2, 32);
+            this.lblKonecenOdgovor.Location = new System.Drawing.Point(-2, 9);
             this.lblKonecenOdgovor.Name = "lblKonecenOdgovor";
-            this.lblKonecenOdgovor.Size = new System.Drawing.Size(384, 24);
+            this.lblKonecenOdgovor.Size = new System.Drawing.Size(384, 56);
             this.lblKonecenOdgovor.TabIndex = 2;
             this.lblKonecenOdgovor.Text = "Дали е тоа Вашиот конечен одговор?";
+            this.lblKonecenOdgovor.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnOK
             // 
@@ -84,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.CancelButton = this.btnNe;
-            this.ClientSize = new System.Drawing.Size(380, 149);
+            this.ClientSize = new System.Drawing.Size(380, 148);
             this.Controls.Add(this.btnNe);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.lblKonecenOdgovor);
@@ -96,7 +96,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormFinalAnswer_FormClosed);
             this.Load += new System.EventHandler(this.FormFinalAnswer_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

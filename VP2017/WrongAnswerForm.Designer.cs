@@ -46,7 +46,7 @@
             this.tbOtkaziSe.BackColor = System.Drawing.Color.MistyRose;
             this.tbOtkaziSe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbOtkaziSe.Enabled = false;
-            this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 28F);
+            this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Bold);
             this.tbOtkaziSe.ForeColor = System.Drawing.Color.Black;
             this.tbOtkaziSe.Location = new System.Drawing.Point(12, 12);
             this.tbOtkaziSe.Multiline = true;
@@ -62,7 +62,7 @@
             this.tbTocenOdgovor.BackColor = System.Drawing.Color.MistyRose;
             this.tbTocenOdgovor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbTocenOdgovor.Enabled = false;
-            this.tbTocenOdgovor.Font = new System.Drawing.Font("Arial Narrow", 34F);
+            this.tbTocenOdgovor.Font = new System.Drawing.Font("Arial Narrow", 34F, System.Drawing.FontStyle.Bold);
             this.tbTocenOdgovor.ForeColor = System.Drawing.Color.Black;
             this.tbTocenOdgovor.Location = new System.Drawing.Point(12, 56);
             this.tbTocenOdgovor.Multiline = true;
@@ -77,13 +77,13 @@
             this.textBox1.BackColor = System.Drawing.Color.MistyRose;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 25F);
+            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold);
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(0, 128);
+            this.textBox1.Location = new System.Drawing.Point(-8, 133);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(383, 48);
+            this.textBox1.Size = new System.Drawing.Size(401, 48);
             this.textBox1.TabIndex = 10;
             this.textBox1.Text = "Повеќе среќа следниот пат!";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

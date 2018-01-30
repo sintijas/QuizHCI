@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExitForm));
             this.tbOtkaziSe = new System.Windows.Forms.TextBox();
             this.btnClose = new System.Windows.Forms.Button();
-            this.tbKolkuDenari = new System.Windows.Forms.TextBox();
+            this.tbTocenOdgovor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbOtkaziSe
@@ -39,7 +39,7 @@
             this.tbOtkaziSe.BackColor = System.Drawing.Color.MistyRose;
             this.tbOtkaziSe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbOtkaziSe.Enabled = false;
-            this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbOtkaziSe.Font = new System.Drawing.Font("Arial Narrow", 28F);
             this.tbOtkaziSe.ForeColor = System.Drawing.Color.Black;
             this.tbOtkaziSe.Location = new System.Drawing.Point(12, 12);
             this.tbOtkaziSe.Multiline = true;
@@ -47,7 +47,7 @@
             this.tbOtkaziSe.ReadOnly = true;
             this.tbOtkaziSe.Size = new System.Drawing.Size(356, 63);
             this.tbOtkaziSe.TabIndex = 6;
-            this.tbOtkaziSe.Text = "Освоена сума:";
+            this.tbOtkaziSe.Text = "Точниот одговор беше:";
             this.tbOtkaziSe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbOtkaziSe.TextChanged += new System.EventHandler(this.tbOtkaziSe_TextChanged);
             // 
@@ -69,30 +69,30 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnNe_Click);
             // 
-            // tbKolkuDenari
+            // tbTocenOdgovor
             // 
-            this.tbKolkuDenari.BackColor = System.Drawing.Color.MistyRose;
-            this.tbKolkuDenari.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbKolkuDenari.Enabled = false;
-            this.tbKolkuDenari.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbKolkuDenari.ForeColor = System.Drawing.Color.Black;
-            this.tbKolkuDenari.Location = new System.Drawing.Point(12, 67);
-            this.tbKolkuDenari.Multiline = true;
-            this.tbKolkuDenari.Name = "tbKolkuDenari";
-            this.tbKolkuDenari.ReadOnly = true;
-            this.tbKolkuDenari.Size = new System.Drawing.Size(356, 40);
-            this.tbKolkuDenari.TabIndex = 7;
-            this.tbKolkuDenari.Text = "50";
-            this.tbKolkuDenari.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbTocenOdgovor.BackColor = System.Drawing.Color.MistyRose;
+            this.tbTocenOdgovor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbTocenOdgovor.Enabled = false;
+            this.tbTocenOdgovor.Font = new System.Drawing.Font("Arial Narrow", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbTocenOdgovor.ForeColor = System.Drawing.Color.Black;
+            this.tbTocenOdgovor.Location = new System.Drawing.Point(12, 67);
+            this.tbTocenOdgovor.Multiline = true;
+            this.tbTocenOdgovor.Name = "tbTocenOdgovor";
+            this.tbTocenOdgovor.ReadOnly = true;
+            this.tbTocenOdgovor.Size = new System.Drawing.Size(356, 40);
+            this.tbTocenOdgovor.TabIndex = 7;
+            this.tbTocenOdgovor.Text = "50";
+            this.tbTocenOdgovor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ExitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
-            this.ClientSize = new System.Drawing.Size(380, 186);
+            this.ClientSize = new System.Drawing.Size(380, 185);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.tbKolkuDenari);
+            this.Controls.Add(this.tbTocenOdgovor);
             this.Controls.Add(this.tbOtkaziSe);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(396, 224);
@@ -111,7 +111,7 @@
 
         private System.Windows.Forms.TextBox tbOtkaziSe;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.TextBox tbKolkuDenari;
+        private System.Windows.Forms.TextBox tbTocenOdgovor;
 
     }
 }

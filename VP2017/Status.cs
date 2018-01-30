@@ -23,7 +23,7 @@ namespace VP2017
             player = new SoundPlayer(path);
             player.Play();
             timer1.Start();
-            this.BackColor = Color.MistyRose;
+            this.BackColor = Color.Black;
             //timerBoja.Start();
             //timerBoja.Tick += (s, e) =>
             //this.BackColor = this.BackColor == Color.Black ? c : Color.Black;
