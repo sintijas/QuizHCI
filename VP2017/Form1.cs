@@ -28,8 +28,6 @@ namespace VP2017
         List<int> Answers;
         int SecondAnswer5050;
         bool Clicked_5050;
-        //bool Clicked_audience;
-        //bool Clicked_phoneFriend;
         public bool isClosed;        
         List<int> VrednostiABCD;
         Random random;
