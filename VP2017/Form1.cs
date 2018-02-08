@@ -28,7 +28,7 @@ namespace VP2017
         List<int> Answers;
         int SecondAnswer5050;
         bool Clicked_5050;
-        public bool isClosed;        
+        public bool isClosed;
         List<int> VrednostiABCD;
         Random random;
         string path = "1001000 music.wav";
@@ -44,7 +44,7 @@ namespace VP2017
             correctAnswer = "";
             i = 1;
             Pominati = new List<int>();
-            id=0;
+            id = 0;
             Answers = new List<int>();
             SecondAnswer5050 = 0;
             Clicked_5050 = false;
@@ -60,9 +60,16 @@ namespace VP2017
             btnZoomIn.FlatAppearance.BorderSize = 3;
             btnZoomOut.FlatAppearance.BorderSize = 3;
             tbBrojPrasanje.ForeColor = Color.Black;
+
+
+            Rectangle screen = Screen.PrimaryScreen.Bounds;
+            Point panel1Location = new Point(
+                 (screen.Width - panel1.Width) / 2,
+                (screen.Height - panel1.Height) / 2);
+            panel1.Location = panel1Location;
         }
-     
-       
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             //pb5050.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -78,7 +85,7 @@ namespace VP2017
             PopolniPrasanje();
             //dodadeno!!!
             play.PlayLooping();
-            
+
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -86,7 +93,7 @@ namespace VP2017
             play.Stop();
             isClosed = true;
         }
-        #endregion 
+        #endregion
 
         #region Functions
 
@@ -128,7 +135,7 @@ namespace VP2017
                 while (sdr.Read())
                 {
                     id = (int)sdr["questID"];
-                    tbQuestion.Text = sdr["quest"].ToString();
+                    tbQuestion2.Text = sdr["quest"].ToString();
                     btnAnswerA.Text = sdr["a"].ToString();
                     btnAnswerB.Text = sdr["b"].ToString();
                     btnAnswerC.Text = sdr["c"].ToString();
@@ -146,7 +153,7 @@ namespace VP2017
                 while (sdr.Read())
                 {
                     id = (int)sdr["quest_id"];
-                    tbQuestion.Text = sdr["quest"].ToString();
+                    tbQuestion2.Text = sdr["quest"].ToString();
                     btnAnswerA.Text = sdr["a"].ToString();
                     btnAnswerB.Text = sdr["b"].ToString();
                     btnAnswerC.Text = sdr["c"].ToString();
@@ -158,13 +165,13 @@ namespace VP2017
                     }
 
                 }
-            }             
+            }
         }
         private int GenerateQuestionNumber()
         {
             int k = 0;
-            int lowestQuestionID=0;
-            int highestQuestionID=0;
+            int lowestQuestionID = 0;
+            int highestQuestionID = 0;
             if (i <= 5)
             {
                 lowestQuestionID = 6;
@@ -203,7 +210,7 @@ namespace VP2017
             }
             catch (Exception e)
             {
-                tbQuestion.Text = e.Message;
+                tbQuestion2.Text = e.Message;
             }
             finally
             {
@@ -221,11 +228,11 @@ namespace VP2017
             SqlCommand cmd = new SqlCommand(sqlStr, connection);
             try
             {
-                GenerateTryBlockForQuestions(connection, cmd, k);              
+                GenerateTryBlockForQuestions(connection, cmd, k);
             }
             catch (Exception e)
             {
-                tbQuestion.Text = e.Message;
+                tbQuestion2.Text = e.Message;
             }
             finally
             {
@@ -247,7 +254,7 @@ namespace VP2017
             }
             catch (Exception e)
             {
-                tbQuestion.Text = e.Message;
+                tbQuestion2.Text = e.Message;
             }
             finally
             {
@@ -314,8 +321,8 @@ namespace VP2017
             btnAnswerC.Enabled = true;
             btnAnswerD.Enabled = true;
         }
-       
-#endregion
+
+        #endregion
 
         #region Buttons_Click
 
@@ -324,8 +331,8 @@ namespace VP2017
         {
             play.Stop();
             btnAnswerA.ForeColor = Color.Orange;
-            FormFinalAnswer form = new FormFinalAnswer(i);
-            if (form.ShowDialog().Equals(DialogResult.OK))
+            //FormFinalAnswer form = new FormFinalAnswer(i);
+            if (true)
             {
                 if (btnAnswerA.Text == correctAnswer)
                 {
@@ -360,8 +367,8 @@ namespace VP2017
         {
             play.Stop();
             btnAnswerB.ForeColor = Color.Orange;
-            FormFinalAnswer form = new FormFinalAnswer(i);
-            if (form.ShowDialog().Equals(DialogResult.OK))
+            //FormFinalAnswer form = new FormFinalAnswer(i);
+            if (true)
             {
                 if (btnAnswerB.Text == correctAnswer)
                 {
@@ -396,8 +403,8 @@ namespace VP2017
         {
             play.Stop();
             btnAnswerC.ForeColor = Color.Orange;
-            FormFinalAnswer form = new FormFinalAnswer(i);
-            if (form.ShowDialog().Equals(DialogResult.OK))
+            //FormFinalAnswer form = new FormFinalAnswer(i);
+            if (true)
             {
                 if (btnAnswerC.Text == correctAnswer)
                 {
@@ -432,8 +439,8 @@ namespace VP2017
         {
             play.Stop();
             btnAnswerD.ForeColor = Color.Orange;
-            FormFinalAnswer form = new FormFinalAnswer(i);
-            if (form.ShowDialog().Equals(DialogResult.OK))
+            //FormFinalAnswer form = new FormFinalAnswer(i);
+            if (true)
             {
                 if (btnAnswerD.Text == correctAnswer)
                 {
@@ -464,7 +471,7 @@ namespace VP2017
             btnAnswerD.ForeColor = Color.Black;
         }
         #endregion
-       
+
         #endregion
 
         private void btn5050_Click(object sender, EventArgs e)
@@ -489,12 +496,12 @@ namespace VP2017
         {
             if (btn5050.Font.Size < 42)
             {
-                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2, FontStyle.Underline);
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2, FontStyle.Bold);
                 btn5050.Font = f;
             }
             if (btnOtkaziSe.Font.Size < 30)
             {
-                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2, FontStyle.Underline);
+                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2, FontStyle.Bold);
                 btnOtkaziSe.Font = f;
             }
             if (btnAnswerA.Font.Size < 28)
@@ -511,15 +518,15 @@ namespace VP2017
         {
             if (btn5050.Font.Size > 20)
             {
-                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2, FontStyle.Underline);
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2, FontStyle.Bold);
                 btn5050.Font = f;
             }
-            if (btnOtkaziSe.Font.Size >20)
+            if (btnOtkaziSe.Font.Size > 20)
             {
-                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2, FontStyle.Underline);
+                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2, FontStyle.Bold);
                 btnOtkaziSe.Font = f;
             }
-            if (btnAnswerA.Font.Size >18)
+            if (btnAnswerA.Font.Size > 18)
             {
                 Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2, FontStyle.Bold);
                 btnAnswerA.Font = f;
@@ -529,7 +536,7 @@ namespace VP2017
             }
         }
 
-        
+
 
 
     }

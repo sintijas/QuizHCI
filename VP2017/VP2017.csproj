@@ -178,6 +178,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Questions.mdf</DependentUpon>
     </Content>
+    <None Include="Images\Logo2.png" />
     <Content Include="logo_ram_icon.ico" />
     <Content Include="Resources\1000000 music.wav" />
     <Content Include="Resources\1001000 music.wav" />
@@ -189,6 +190,8 @@
     <Content Include="Resources\commerical break.wav" />
     <Content Include="Resources\correct answer.wav" />
     <Content Include="Resources\final answer.wav" />
+    <None Include="Resources\logo3.png" />
+    <None Include="Resources\logo4.png" />
     <Content Include="Resources\main_theme.wav" />
   </ItemGroup>
   <ItemGroup>
