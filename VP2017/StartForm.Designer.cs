@@ -141,7 +141,7 @@
             this.logoPictureBox.Image = global::VP2017.Properties.Resources.logo4;
             this.logoPictureBox.Location = new System.Drawing.Point(251, -35);
             this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.Size = new System.Drawing.Size(250, 250);
+            this.logoPictureBox.Size = new System.Drawing.Size(300, 300);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoPictureBox.TabIndex = 6;
             this.logoPictureBox.TabStop = false;

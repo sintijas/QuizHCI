@@ -494,46 +494,38 @@ namespace VP2017
 
         private void btnZoomIn_Click(object sender, EventArgs e)
         {
-            if (btn5050.Font.Size < 42)
-            {
-                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2, FontStyle.Bold);
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2);
                 btn5050.Font = f;
-            }
-            if (btnOtkaziSe.Font.Size < 30)
-            {
-                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2, FontStyle.Bold);
+
+                f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size + 2);
                 btnOtkaziSe.Font = f;
-            }
-            if (btnAnswerA.Font.Size < 28)
-            {
-                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size + 2, FontStyle.Bold);
+                f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size + 2, FontStyle.Bold);
                 btnAnswerA.Font = f;
                 btnAnswerB.Font = f;
                 btnAnswerC.Font = f;
                 btnAnswerD.Font = f;
-            }
+                f = new Font(tbQuestion2.Font.FontFamily, tbQuestion2.Font.Size + 2);
+                tbQuestion2.Font = f;
+                
         }
 
         private void btnZoomOut_Click(object sender, EventArgs e)
         {
-            if (btn5050.Font.Size > 20)
+            if (btnAnswerA.Font.Size >= 8)
             {
-                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2, FontStyle.Bold);
+                Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size - 2);
                 btn5050.Font = f;
-            }
-            if (btnOtkaziSe.Font.Size > 20)
-            {
-                Font f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2, FontStyle.Bold);
+                f = new Font(btnOtkaziSe.Font.FontFamily, btnOtkaziSe.Font.Size - 2);
                 btnOtkaziSe.Font = f;
-            }
-            if (btnAnswerA.Font.Size > 18)
-            {
-                Font f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2, FontStyle.Bold);
+                f = new Font(btnAnswerA.Font.FontFamily, btnAnswerA.Font.Size - 2, FontStyle.Bold);
                 btnAnswerA.Font = f;
                 btnAnswerB.Font = f;
                 btnAnswerC.Font = f;
                 btnAnswerD.Font = f;
+                f = new Font(tbQuestion2.Font.FontFamily, tbQuestion2.Font.Size - 2);
+                tbQuestion2.Font = f;
             }
+                
         }
 
 
