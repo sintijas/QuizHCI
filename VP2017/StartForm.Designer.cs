@@ -36,6 +36,9 @@
             this.btnZoomIn = new System.Windows.Forms.Button();
             this.quitButton = new System.Windows.Forms.Button();
             this.logoPictureBox = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.name = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
             this.SuspendLayout();
@@ -97,7 +100,7 @@
             this.panel1.Controls.Add(this.btnZoomOut);
             this.panel1.Controls.Add(this.btnZoomIn);
             this.panel1.Controls.Add(this.btnPlay);
-            this.panel1.Location = new System.Drawing.Point(247, 221);
+            this.panel1.Location = new System.Drawing.Point(572, 431);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(741, 335);
             this.panel1.TabIndex = 5;
@@ -130,7 +133,7 @@
             this.quitButton.ForeColor = System.Drawing.Color.Black;
             this.quitButton.Location = new System.Drawing.Point(607, 1);
             this.quitButton.Name = "quitButton";
-            this.quitButton.Size = new System.Drawing.Size(196, 69);
+            this.quitButton.Size = new System.Drawing.Size(266, 69);
             this.quitButton.TabIndex = 5;
             this.quitButton.Text = "Исклучи";
             this.quitButton.UseVisualStyleBackColor = false;
@@ -139,12 +142,48 @@
             // logoPictureBox
             // 
             this.logoPictureBox.Image = global::VP2017.Properties.Resources.logo4;
-            this.logoPictureBox.Location = new System.Drawing.Point(251, -35);
+            this.logoPictureBox.Location = new System.Drawing.Point(356, 76);
             this.logoPictureBox.Name = "logoPictureBox";
             this.logoPictureBox.Size = new System.Drawing.Size(300, 300);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoPictureBox.TabIndex = 6;
             this.logoPictureBox.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 28F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(12, 76);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(266, 69);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Внеси играч";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // name
+            // 
+            this.name.Font = new System.Drawing.Font("Arial", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.name.Location = new System.Drawing.Point(12, 13);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(266, 50);
+            this.name.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 43);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "label1";
             // 
             // StartForm
             // 
@@ -152,6 +191,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(815, 448);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.name);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.logoPictureBox);
             this.Controls.Add(this.quitButton);
             this.Controls.Add(this.panel1);
@@ -164,6 +206,7 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -176,5 +219,8 @@
         private System.Windows.Forms.Button btnZoomIn;
         private System.Windows.Forms.Button quitButton;
         private System.Windows.Forms.PictureBox logoPictureBox;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.Label label1;
     }
 }

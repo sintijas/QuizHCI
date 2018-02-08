@@ -12,6 +12,7 @@ namespace VP2017
     public partial class StartForm : Form
     {
         string path = "Theme_Main_-_Who_Wants_to_Be_a_Millionaire-.wav";
+        string username;
         SoundPlayer player;
         public StartForm()
         {
@@ -22,6 +23,8 @@ namespace VP2017
             btnInstructions.FlatAppearance.BorderSize = 5;
             btnZoomIn.FlatAppearance.BorderSize = 4;
             btnZoomOut.FlatAppearance.BorderSize = 4;
+            label1.Text = "";
+            label1.Visible = false;
 
 
             Rectangle screen = Screen.PrimaryScreen.Bounds;
@@ -101,6 +104,15 @@ namespace VP2017
         private void quitButton_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.username = name.Text;
+            this.name.Visible = false;
+            this.button1.Visible = false;
+            this.label1.Text = "Здраво " + this.username; 
+            this.label1.Visible = true;
         }
     }
 }
