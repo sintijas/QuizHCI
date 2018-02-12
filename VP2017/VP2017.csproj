@@ -82,6 +82,12 @@
     <Compile Include="FormFinalAnswer.Designer.cs">
       <DependentUpon>FormFinalAnswer.cs</DependentUpon>
     </Compile>
+    <Compile Include="HighScoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScoresForm.Designer.cs">
+      <DependentUpon>HighScoresForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstructionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFinalAnswer.resx">
       <DependentUpon>FormFinalAnswer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScoresForm.resx">
+      <DependentUpon>HighScoresForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstructionsForm.resx">
       <DependentUpon>InstructionsForm.cs</DependentUpon>

@@ -44,14 +44,16 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.label1.Enabled = false;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 36F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 12);
+            this.label1.HideSelection = false;
+            this.label1.Location = new System.Drawing.Point(16, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.label1.Multiline = true;
             this.label1.Name = "label1";
             this.label1.ReadOnly = true;
-            this.label1.Size = new System.Drawing.Size(345, 133);
+            this.label1.Size = new System.Drawing.Size(460, 164);
             this.label1.TabIndex = 8;
             this.label1.Text = "Точно го одговоривте";
             this.label1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -60,28 +62,31 @@
             // 
             this.lblPrasanje.BackColor = System.Drawing.Color.Black;
             this.lblPrasanje.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lblPrasanje.Enabled = false;
+            this.lblPrasanje.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.lblPrasanje.Font = new System.Drawing.Font("Arial Narrow", 36F);
             this.lblPrasanje.ForeColor = System.Drawing.Color.White;
-            this.lblPrasanje.Location = new System.Drawing.Point(12, 133);
+            this.lblPrasanje.HideSelection = false;
+            this.lblPrasanje.Location = new System.Drawing.Point(16, 164);
+            this.lblPrasanje.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblPrasanje.Multiline = true;
             this.lblPrasanje.Name = "lblPrasanje";
             this.lblPrasanje.ReadOnly = true;
-            this.lblPrasanje.Size = new System.Drawing.Size(345, 73);
+            this.lblPrasanje.Size = new System.Drawing.Size(460, 90);
             this.lblPrasanje.TabIndex = 9;
             this.lblPrasanje.Text = "Точен одговор на:\r\n\r\n";
             this.lblPrasanje.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Status
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(369, 218);
+            this.ClientSize = new System.Drawing.Size(492, 268);
             this.Controls.Add(this.lblPrasanje);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Status";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Status_FormClosed);

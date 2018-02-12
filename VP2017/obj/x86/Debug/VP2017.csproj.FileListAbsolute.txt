@@ -266,3 +266,59 @@ E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\KvizNICK\VP2017
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\KvizNICK\VP2017\obj\x86\Debug\VP2017.WinnerForm.resources
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\KvizNICK\VP2017\obj\x86\Debug\VP2017.WrongAnswerForm.resources
 E:\7. Sedmi Semestar\Napredna Interakcija Covek-Kompjuter\Proekt\KvizNICK\VP2017\obj\x86\Debug\VP2017.csproj.GenerateResource.Cache
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\bin\Debug\VP2017.exe.config
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.exe
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.pdb
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\bin\Debug\DataBase\Questions.mdf
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\bin\Debug\DataBase\Questions_log.ldf
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\bin\Debug\VP2017.exe
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\bin\Debug\VP2017.pdb
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.csprojResolveAssemblyReference.cache
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Form1.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.FormFinalAnswer.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.InstructionsForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.ExitForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Properties.Resources.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.StartForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Status.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.WinnerForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.WrongAnswerForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.csproj.GenerateResource.Cache
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\bin\Debug\VP2017.exe.config
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.exe
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.pdb
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\bin\Debug\DataBase\Questions.mdf
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\bin\Debug\DataBase\Questions_log.ldf
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\bin\Debug\VP2017.exe
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\bin\Debug\VP2017.pdb
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.csprojResolveAssemblyReference.cache
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Form1.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.FormFinalAnswer.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.InstructionsForm.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.ExitForm.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Properties.Resources.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.StartForm.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Status.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.WinnerForm.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.WrongAnswerForm.resources
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.csproj.GenerateResource.Cache
+D:\Documents\ivana\fakultet\fakultet\sedmi semestar\napredna interakcija covek kompjuter\proekt\irena\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.HighScoresForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\bin\Debug\VP2017.exe.config
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.exe
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.pdb
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\bin\Debug\DataBase\Questions.mdf
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\bin\Debug\DataBase\Questions_log.ldf
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\bin\Debug\VP2017.exe
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\bin\Debug\VP2017.pdb
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.csprojResolveAssemblyReference.cache
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Form1.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.FormFinalAnswer.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.HighScoresForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.InstructionsForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.ExitForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Properties.Resources.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.StartForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.Status.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.WinnerForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.WrongAnswerForm.resources
+C:\Users\Irena\Downloads\QuizHCI-master-high-scores\QuizHCI-master\VP2017\obj\x86\Debug\VP2017.csproj.GenerateResource.Cache

@@ -20,6 +20,7 @@ namespace VP2017
     public partial class Form1 : Form
     {
         #region Variables
+        string username;
         string correctAnswer;
         int i;
         List<int> Pominati;
@@ -36,9 +37,10 @@ namespace VP2017
         #endregion
 
         #region Constructor_Form1, Load method and Close method
-        public Form1()
+        public Form1(string username)
         {
             InitializeComponent();
+            this.username = username; 
             corrButton = 0;
             //BackgroundImageLayout = ImageLayout.Stretch;
             correctAnswer = "";
@@ -62,11 +64,7 @@ namespace VP2017
             tbBrojPrasanje.ForeColor = Color.Black;
 
 
-            Rectangle screen = Screen.PrimaryScreen.Bounds;
-            Point panel1Location = new Point(
-                 (screen.Width - panel1.Width) / 2,
-                (screen.Height - panel1.Height) / 2);
-            panel1.Location = panel1Location;
+            
         }
 
 
@@ -85,6 +83,12 @@ namespace VP2017
             PopolniPrasanje();
             //dodadeno!!!
             play.PlayLooping();
+
+            Rectangle screen = Screen.PrimaryScreen.Bounds;
+            Point panel1Location = new Point(
+                 (screen.Width - panel1.Width) / 2,
+                (screen.Height - panel1.Height) / 2);
+            panel1.Location = panel1Location;
 
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
@@ -263,7 +267,7 @@ namespace VP2017
         }
         private void WrongAnswer()
         {
-            WrongAnswerForm wrongform = new WrongAnswerForm(i, correctAnswer);
+            WrongAnswerForm wrongform = new WrongAnswerForm(i, username, correctAnswer);
             wrongform.ShowDialog();
             isClosed = true;
             this.Close();
@@ -339,7 +343,7 @@ namespace VP2017
                     btnAnswerA.ForeColor = Color.Green;
                     if (i == 15)
                     {
-                        WinnerForm winner = new WinnerForm();
+                        WinnerForm winner = new WinnerForm(username);
                         winner.ShowDialog();
                         this.Close();
                     }
@@ -375,7 +379,7 @@ namespace VP2017
                     btnAnswerB.ForeColor = Color.Green;
                     if (i == 15)
                     {
-                        WinnerForm winner = new WinnerForm();
+                        WinnerForm winner = new WinnerForm(username);
                         winner.ShowDialog();
                         this.Close();
                     }
@@ -411,7 +415,7 @@ namespace VP2017
                     btnAnswerC.ForeColor = Color.Green;
                     if (i == 15)
                     {
-                        WinnerForm winner = new WinnerForm();
+                        WinnerForm winner = new WinnerForm(username);
                         winner.ShowDialog();
                         this.Close();
                     }
@@ -447,7 +451,7 @@ namespace VP2017
                     btnAnswerD.ForeColor = Color.Green;
                     if (i == 15)
                     {
-                        WinnerForm winner = new WinnerForm();
+                        WinnerForm winner = new WinnerForm(username);
                         winner.ShowDialog();
                         this.Close();
                     }
@@ -472,7 +476,7 @@ namespace VP2017
         }
         #endregion
 
-        #endregion
+    
 
         private void btn5050_Click(object sender, EventArgs e)
         {
@@ -486,12 +490,15 @@ namespace VP2017
 
         private void btnOtkaziSe_Click(object sender, EventArgs e)
         {
-            ExitForm form = new ExitForm(i, correctAnswer);
+            ExitForm form = new ExitForm(i, username, correctAnswer);
             form.ShowDialog();
             isClosed = true;
             this.Close();
         }
 
+        #endregion
+
+        #region Zoom in / Zoom out
         private void btnZoomIn_Click(object sender, EventArgs e)
         {
                 Font f = new Font(btn5050.Font.FontFamily, btn5050.Font.Size + 2);
@@ -525,9 +532,9 @@ namespace VP2017
                 f = new Font(tbQuestion2.Font.FontFamily, tbQuestion2.Font.Size - 2);
                 tbQuestion2.Font = f;
             }
-                
-        }
 
+        }
+        #endregion
 
 
 

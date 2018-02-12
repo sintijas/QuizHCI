@@ -39,6 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.highScoresButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
             this.SuspendLayout();
@@ -162,7 +163,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(266, 69);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Внеси играч";
+            this.button1.Text = "Внеси име";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -185,12 +186,30 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "label1";
             // 
+            // highScoresButton
+            // 
+            this.highScoresButton.BackColor = System.Drawing.Color.White;
+            this.highScoresButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.highScoresButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.highScoresButton.FlatAppearance.BorderSize = 3;
+            this.highScoresButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.highScoresButton.Font = new System.Drawing.Font("Arial", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.highScoresButton.ForeColor = System.Drawing.Color.Black;
+            this.highScoresButton.Location = new System.Drawing.Point(12, 166);
+            this.highScoresButton.Name = "highScoresButton";
+            this.highScoresButton.Size = new System.Drawing.Size(266, 69);
+            this.highScoresButton.TabIndex = 10;
+            this.highScoresButton.Text = "Најдобри резултати";
+            this.highScoresButton.UseVisualStyleBackColor = false;
+            this.highScoresButton.Click += new System.EventHandler(this.highScoresButton_Click);
+            // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(815, 448);
+            this.Controls.Add(this.highScoresButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.name);
             this.Controls.Add(this.button1);
@@ -222,5 +241,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox name;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button highScoresButton;
     }
 }

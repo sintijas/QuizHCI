@@ -47,7 +47,7 @@ namespace VP2017
         private void btnPlay_Click(object sender, EventArgs e)
         {
             player.Stop();
-            Form1 form1 = new Form1();
+            Form1 form1 = new Form1(username);
             this.Visible = false;
             form1.ShowDialog();
             if (form1.isClosed)
@@ -88,6 +88,10 @@ namespace VP2017
                 Font f = new Font(btnPlay.Font.FontFamily, btnPlay.Font.Size + 2, FontStyle.Bold);
                 btnInstructions.Font = f;
                 btnPlay.Font = f;
+                button1.Font = f;
+                quitButton.Font = f;
+                if (!String.IsNullOrEmpty(name.Text))
+                    name.Font = f;
             }
         }
 
@@ -98,6 +102,10 @@ namespace VP2017
                 Font f = new Font(btnPlay.Font.FontFamily, btnPlay.Font.Size - 2, FontStyle.Bold);
                 btnInstructions.Font = f;
                 btnPlay.Font = f;
+                button1.Font = f;
+                quitButton.Font = f;
+                if (!String.IsNullOrEmpty(name.Text))
+                    name.Font = f;
             }
         }
 
@@ -114,5 +122,13 @@ namespace VP2017
             this.label1.Text = "Здраво " + this.username; 
             this.label1.Visible = true;
         }
+
+        private void highScoresButton_Click(object sender, EventArgs e)
+        {
+            HighScoresForm form = new HighScoresForm();
+            form.ShowDialog();
+        }
+
+      
     }
 }
