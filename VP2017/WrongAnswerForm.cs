@@ -50,6 +50,7 @@ namespace VP2017
         }
         private void WrongAnswerForm_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             tbTocenOdgovor.Text = correct;
             //tbOsvoenaSuma.Text = string.Format("Освоена сума: {0:n0} денари",Fill());
         }
@@ -63,6 +64,11 @@ namespace VP2017
         private void WrongAnswerForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             timer1.Stop();
+        }
+
+        private void tbOtkaziSe_Click(object sender, EventArgs e)
+        {
+
         }
 
         

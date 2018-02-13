@@ -83,29 +83,35 @@ namespace VP2017
 
         private void btnZoomIn_Click(object sender, EventArgs e)
         {
-            if (btnPlay.Font.Size < 48)
-            {
+            //if (btnPlay.Font.Size < 48)
+            //{
                 Font f = new Font(btnPlay.Font.FontFamily, btnPlay.Font.Size + 2, FontStyle.Bold);
                 btnInstructions.Font = f;
                 btnPlay.Font = f;
+                f = new Font(button1.Font.FontFamily, button1.Font.Size + 2, FontStyle.Bold);
                 button1.Font = f;
                 quitButton.Font = f;
                 if (!String.IsNullOrEmpty(name.Text))
                     name.Font = f;
-            }
+                f = new Font(highScoresButton.Font.FontFamily, highScoresButton.Font.Size + 2, FontStyle.Bold);
+                highScoresButton.Font = f;
+            //}
         }
 
         private void btnZoomOut_Click(object sender, EventArgs e)
         {
-            if (btnPlay.Font.Size > 20)
+            if (highScoresButton.Font.Size > 2)
             {
                 Font f = new Font(btnPlay.Font.FontFamily, btnPlay.Font.Size - 2, FontStyle.Bold);
                 btnInstructions.Font = f;
                 btnPlay.Font = f;
+                f = new Font(button1.Font.FontFamily, button1.Font.Size - 2, FontStyle.Bold);
                 button1.Font = f;
                 quitButton.Font = f;
                 if (!String.IsNullOrEmpty(name.Text))
                     name.Font = f;
+                f = new Font(highScoresButton.Font.FontFamily, highScoresButton.Font.Size - 2, FontStyle.Bold);
+                highScoresButton.Font = f;
             }
         }
 

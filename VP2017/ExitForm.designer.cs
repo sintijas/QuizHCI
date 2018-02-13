@@ -44,7 +44,7 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Arial Narrow", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnClose.ForeColor = System.Drawing.Color.Black;
-            this.btnClose.Location = new System.Drawing.Point(111, 127);
+            this.btnClose.Location = new System.Drawing.Point(123, 142);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(156, 46);
             this.btnClose.TabIndex = 8;
@@ -55,10 +55,11 @@
             // tbTocenOdgovor
             // 
             this.tbTocenOdgovor.AutoSize = true;
-            this.tbTocenOdgovor.BackColor = System.Drawing.Color.White;
-            this.tbTocenOdgovor.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbTocenOdgovor.Location = new System.Drawing.Point(12, 61);
-            this.tbTocenOdgovor.MaximumSize = new System.Drawing.Size(356, 40);
+            this.tbTocenOdgovor.BackColor = System.Drawing.Color.Black;
+            this.tbTocenOdgovor.Font = new System.Drawing.Font("Arial", 25F);
+            this.tbTocenOdgovor.ForeColor = System.Drawing.Color.White;
+            this.tbTocenOdgovor.Location = new System.Drawing.Point(23, 80);
+            this.tbTocenOdgovor.MaximumSize = new System.Drawing.Size(356, 50);
             this.tbTocenOdgovor.MinimumSize = new System.Drawing.Size(356, 40);
             this.tbTocenOdgovor.Name = "tbTocenOdgovor";
             this.tbTocenOdgovor.Size = new System.Drawing.Size(356, 40);
@@ -69,9 +70,10 @@
             // tb
             // 
             this.tb.AutoSize = true;
-            this.tb.BackColor = System.Drawing.Color.White;
+            this.tb.BackColor = System.Drawing.Color.Black;
             this.tb.Font = new System.Drawing.Font("Arial", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tb.Location = new System.Drawing.Point(12, 21);
+            this.tb.ForeColor = System.Drawing.Color.White;
+            this.tb.Location = new System.Drawing.Point(23, 40);
             this.tb.MaximumSize = new System.Drawing.Size(356, 40);
             this.tb.MinimumSize = new System.Drawing.Size(356, 40);
             this.tb.Name = "tb";
@@ -83,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(380, 185);
             this.Controls.Add(this.tb);
             this.Controls.Add(this.tbTocenOdgovor);

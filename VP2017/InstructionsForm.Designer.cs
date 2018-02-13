@@ -60,7 +60,7 @@
             this.label1.MaximumSize = new System.Drawing.Size(1500, 1500);
             this.label1.MinimumSize = new System.Drawing.Size(659, 305);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1005, 315);
+            this.label1.Size = new System.Drawing.Size(1012, 770);
             this.label1.TabIndex = 6;
             this.label1.Text = resources.GetString("label1.Text");
             // 

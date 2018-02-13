@@ -193,7 +193,7 @@
             this.highScoresButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.highScoresButton.FlatAppearance.BorderSize = 3;
             this.highScoresButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.highScoresButton.Font = new System.Drawing.Font("Arial", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.highScoresButton.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.highScoresButton.ForeColor = System.Drawing.Color.Black;
             this.highScoresButton.Location = new System.Drawing.Point(12, 166);
             this.highScoresButton.Name = "highScoresButton";

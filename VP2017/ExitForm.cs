@@ -53,6 +53,7 @@ namespace VP2017
 
         private void FormFinalAnswer_Load(object sender, EventArgs e)
         {
+            FormBorderStyle = FormBorderStyle.None;
             tbTocenOdgovor.Text = correct;
             player.Play();
         }

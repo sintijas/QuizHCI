@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.timerBoja = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.TextBox();
-            this.lblPrasanje = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblPrasanje = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
@@ -40,53 +40,42 @@
             this.timer1.Interval = 4000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label1
+            // label2
             // 
-            this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 36F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.HideSelection = false;
-            this.label1.Location = new System.Drawing.Point(16, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.label1.Multiline = true;
-            this.label1.Name = "label1";
-            this.label1.ReadOnly = true;
-            this.label1.Size = new System.Drawing.Size(460, 164);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Точно го одговоривте";
-            this.label1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 36F);
+            this.label2.Location = new System.Drawing.Point(12, 12);
+            this.label2.MaximumSize = new System.Drawing.Size(345, 133);
+            this.label2.MinimumSize = new System.Drawing.Size(345, 133);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(345, 133);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Точно го одговоривте";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPrasanje
             // 
-            this.lblPrasanje.BackColor = System.Drawing.Color.Black;
-            this.lblPrasanje.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lblPrasanje.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.lblPrasanje.AutoSize = true;
             this.lblPrasanje.Font = new System.Drawing.Font("Arial Narrow", 36F);
-            this.lblPrasanje.ForeColor = System.Drawing.Color.White;
-            this.lblPrasanje.HideSelection = false;
-            this.lblPrasanje.Location = new System.Drawing.Point(16, 164);
-            this.lblPrasanje.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lblPrasanje.Multiline = true;
+            this.lblPrasanje.Location = new System.Drawing.Point(12, 145);
+            this.lblPrasanje.MaximumSize = new System.Drawing.Size(345, 73);
+            this.lblPrasanje.MinimumSize = new System.Drawing.Size(345, 73);
             this.lblPrasanje.Name = "lblPrasanje";
-            this.lblPrasanje.ReadOnly = true;
-            this.lblPrasanje.Size = new System.Drawing.Size(460, 90);
-            this.lblPrasanje.TabIndex = 9;
-            this.lblPrasanje.Text = "Точен одговор на:\r\n\r\n";
-            this.lblPrasanje.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lblPrasanje.Size = new System.Drawing.Size(345, 73);
+            this.lblPrasanje.TabIndex = 11;
+            this.lblPrasanje.Text = "label1";
+            this.lblPrasanje.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Status
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(492, 268);
+            this.ClientSize = new System.Drawing.Size(369, 218);
             this.Controls.Add(this.lblPrasanje);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Status";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Status_FormClosed);
@@ -99,8 +88,8 @@
 
         private System.Windows.Forms.Timer timerBoja;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox label1;
-        private System.Windows.Forms.TextBox lblPrasanje;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblPrasanje;
 
     }
 }
